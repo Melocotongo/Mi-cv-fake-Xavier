@@ -1,5 +1,5 @@
 body{
-    background-color: blanchedalmond;
+    background-color: floralwhite;
 }
 
 h1{
@@ -29,6 +29,9 @@ p{
 #Parrafo-1{
     background-color: aquamarine;
     background-clip: border-box;
+    /* esto cambia el contenido */
+    width: 200px;
+    height: 300px;
 }
 
 #Parrafo-2{
@@ -46,4 +49,16 @@ h2 {
     background-clip: text;
     color: transparent;
 }
+
+span{
+    color: blueviolet;
+    background-color: black;
+    border: solid 3px salmon;
+    margin: 16px;
+    width: 200px;
+    height: 50px;
+    display: block;
+}
+
+
 
